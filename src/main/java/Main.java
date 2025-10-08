@@ -1,14 +1,15 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("24 часа Ле-Мана");
-        tachka1.auto1();
-        tachka1.speed1();
 
-        tachka2.auto2();
-        tachka2.speed2();
+        car1.auto();
+        car1.speed();
 
-        tachka3.auto3();
-        tachka3.speed3();
+        car2.auto();
+        car2.speed();
+
+        car3.auto();
+        car3.speed();
 
         compare.result();
     }
